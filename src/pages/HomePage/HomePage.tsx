@@ -20,7 +20,7 @@ const HomePage = () => {
         </div>
         <div className={styles.consultation_image}>
           <img
-            src="/src/assets/img/doctora.webp" 
+            src="https://doctoraltos.com/hs-fs/hubfs/doctora.png?width=275&height=358&name=doctora.png" 
             alt="Doctor"
           />
         </div>
