@@ -1,0 +1,73 @@
+/* Estilos principales de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f7fa;
+    padding: 0.7rem 1.3rem;
+}
+
+/* Estilo del logo */
+.logo {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.logo h1 {
+    color: #007bff;
+}
+
+.logo h1 span {
+    color: #000;
+}
+
+/* Estilos del menú de navegación */
+.navbar_menu {
+    display: flex;
+    list-style: none;
+}
+
+.navbar_menu li {
+    margin: 0 0.7rem;
+}
+
+.navbar_menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar_menu a:hover {
+    color: #007bff;
+}
+
+/* Estilo del botón 'Book Now' */
+.navbar_right button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.navbar_right button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 425px) {
+    .logo{
+        font-size: .8rem;
+    }
+    
+    .navbar_right {
+        display: none;
+    }
+
+    .navbar_menu a{
+        font-size: .8rem;
+    }
+}
